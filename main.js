@@ -31,7 +31,6 @@ carousel()
 //   fullWidth: true
 // });
 function carryOver(){
-  console.log("hi")
   let zip = $('#zipField').val();
   window.location="page2.html?zip="+zip
 }
