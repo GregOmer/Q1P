@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Get Yo DRANKS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="page2.css">
+  </head>
+  <body>
+      <div class="result-text">RESULT: example.drk
+        <div class"result-img">image result here
+        </div>
+      </div>
+      <div class="carousel carousel-slider">
+
+        <a href="#one!" class="carousel-item"><img src="640x480/BloodyMaria.jpg"></a>
+        <a href="#two!" class="carousel-item"><img src="640x480/EspressoMartini.jpg"></a>
+        <a href="#three!" class="carousel-item"><img src= "640x480/hotToddy.jpg"></a>
+        <a href="#four!" class="carousel-item"><img src="640x480/RedSangria.jpg"></a>
+        <a href="#five!" class="carousel-item"><img src="640x480/OldFashioned.jpg"></a>
+        <a href="#six!" class="carousel-item"><img src="640x480/Shots.jpg"></a>
+        <a href="#seven!" class="carousel-item"><img src="640x480/TomCollins.jpg"></a>
+        <a href="#eight!" class="carousel-item"><img src="640x480/BloodyMary.jpg"></a>
+        <a href="#nine!" class="carousel-item"><img src="640x480/cosmo.jpg"></a>
+        <a href="#ten!" class="carousel-item"><img src="640x480/DarkBeer.jpg"></a>
+        <a href="#eleven!" class="carousel-item"><img src="640x480/IrishCoffee.jpg"></a>
+        <a href="#twelve!" class="carousel-item"><img src="640x480/LightBeer.jpg"></a>
+        <a href="#thirteen!" class="carousel-item"><img src="640x480/Manhattan.jpg"></a>
+        <a href="#fourteen!" class="carousel-item"><img src="640x480/Martini.jpg"></a>
+        <a href="#fifteen!" class="carousel-item"><img src="640x480/Mimosa.jpg"></a>
+        <a href="#sixteen!" class="carousel-item"><img src="640x480/Mojito.jpg"></a>
+
+      </div>
+      <script type='text/javascript' src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+
+          setInterval(function(){
+            $('.carousel').carousel('next');
+
+          }, 4000);
+          });
+      </script>
+      <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <style>
+        .carousel{
+          height:1250px !important;
+        }
+      </style>
+  </body>
+</html>

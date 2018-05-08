@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DRANKS</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="body">
+
+
+    <h5 class="h5">
+      Drink of the hour!
+    </h5>
+    <div class="parallax-container">
+      <div class="parallax"><img src="Q1PBG/Beach-Night-Background 2.jpeg"></div>
+    </div>
+    <h6 class="h6">
+      Can't pick your poison?
+      Please input your name, zip code, and a base alcohol of your choice.
+      Hit the button, and we'll get you the right bev for the moment!
+    </h6>
+    <div class="row">
+
+          <div class="col s4 form">
+            <form>NAME<input type="text" maxlength="30"></form>
+          </div>
+          <div class="col s4 form">
+            <form>ZIP CODE<input id="zipField" type="text" maxlength="5"></form>
+          </div>
+            <!-- dropdown menu for alcohol choices, not using due to annoyances. -->
+          <!-- <div class="col s4 form">
+            <select>
+              <option value="" disabled selected>PICK A SPIRIT</option>
+              <option value="1">Bourbon</option>
+              <option value="2">Scotch</option>
+              <option value="3">Gin</option>
+              <option value="4">Tequila</option>
+              <option value="5">Rum</option>
+              <option value="6">Vodka</option>
+              <option value="7">Wine</option>
+              <option value="8">Champagne</option>
+              <option value="9">Beer</option>
+            </select>
+          </div> -->
+          <div class="col s4 form">
+            <form>PICK A SPIRIT<input id="alcField" type="text" name="alc" maxlength="30"></form>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col s6 offset-s6">
+        <button id="btn" type="submit" name="action">PROST
+            <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="Q1PBG/SnowBackground2.jpeg"></div>
+    </div>
+    <p class="footer">
+      This site gathers data about your location, such as weather conditions and type of day. Together with your choice of base alcohol, a fitting drink is generated. Cheers!
+    </p>
+    <div class="parallax-container">
+      <div class="parallax"><img src="Q1PBG/Sunny-Background2.jpeg"></div>
+    </div>
+
+
+    <!-- JavaScript at end of body for optimized loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

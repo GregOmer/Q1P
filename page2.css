@@ -1,0 +1,10 @@
+.result-text {
+  text-align: center;
+  color:black;
+  background-color: #41f717;
+  border: 20px solid black;
+  margin: 5px 5px 5px 5px;
+}
+body {
+background-color: navy;
+}
