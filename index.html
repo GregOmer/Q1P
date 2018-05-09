@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DRANKS</title>
+    <title>Its That Time.</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -22,15 +22,15 @@
     </div>
     <h6 class="h6">
       Can't pick your poison?
-      Please input your name, zip code, and a base alcohol of your choice.
+      Please input your zip code,
       Hit the button, and we'll get you the right bev for the moment!
     </h6>
     <div class="row">
 
-          <div class="col s4 form">
+          <!-- <div class="col s4 form">
             <form>NAME<input type="text" maxlength="30"></form>
-          </div>
-          <div class="col s4 form">
+          </div> -->
+          <div class="col s4 form offset-s4">
             <form>ZIP CODE<input id="zipField" type="text" maxlength="5"></form>
           </div>
             <!-- dropdown menu for alcohol choices, not using due to visual annoyances. -->
@@ -48,13 +48,14 @@
               <option value="9">Beer</option>
             </select>
           </div> -->
-          <div class="col s4 form">
+          <!-- <div class="col s4 form">
             <form>PICK A SPIRIT<input id="alcField" type="text" name="alc" maxlength="30"></form>
-          </div>
+          </div> -->
     </div>
     <div class="row">
       <div class="col s6 offset-s6">
         <!-- carryOver extracts zipcode for page2 use -->
+
         <button id="btn" type="submit" name="action" onClick="carryOver()">PROST
 
 
@@ -65,19 +66,21 @@
       </div>
     </div>
 
-
+        <!-- snow image -->
     <div class="parallax-container">
       <div class="parallax"><img src="Q1PBG/SnowBackground2.jpeg"></div>
     </div>
     <p class="footer">
       This site gathers data about your location, such as weather conditions and type of day. Together with your choice of base alcohol, a fitting drink is generated. Cheers!
     </p>
+
+          <!-- italy image -->
     <div class="parallax-container">
       <div class="parallax"><img src="Q1PBG/Sunny-Background2.jpeg"></div>
     </div>
 
 
-    <!-- JavaScript at end of body for optimized loading -->
+    <!-- JavaScript -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

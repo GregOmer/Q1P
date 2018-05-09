@@ -49,11 +49,9 @@ submitButton.addEventListener ("click", function(){
     console.log("weather = " + result.weather["0"].description)
     console.log("date = " + result.dt)
 
-
-
 function epochToJsDate(ts){
-  console.log(new Date(ts*1000))
-  return new Date(ts*1000);
+  let date = new Date(ts*1000);
+  //console.log(date)
 }
 epochToJsDate(result.dt)
 
